@@ -1,0 +1,81 @@
+body {
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #F7C8E0;
+}
+#container {
+    background-color: rgba(94, 97, 93, 0.788);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #F7C8E0;
+    align-self: center;
+    margin-top: 40px;
+}
+input {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+#addTreat {
+    background-color: #95BDFF;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#btn {
+    background-color: #F7C8E0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#treat {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    border-radius: 5px;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+}
+#billSplit, #totalTreat, #totalAmount {
+    font-family: 'Roboto', sans-serif;
+    background-color: #B4E4FF;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+@media all and (max-width: 800px) {
+    #container {
+        width: 500px;
+        height: 825px;
+        }
+}
+@media all and (max-width: 500px) {
+    #container {
+        width: 400px;
+        height: 825px;
+        }
+}
